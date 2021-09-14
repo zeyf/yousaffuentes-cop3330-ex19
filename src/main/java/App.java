@@ -27,7 +27,7 @@ public class App {
             if (bmi >= 18.5 && bmi <= 25)
                 System.out.println(String.format("Your BMI is %.1f.\nYou are within the ideal weight range.", bmi));
             else if (bmi > 25)
-                System.out.println(String.format("You are overweight. You should see your doctor.", bmi));
+                System.out.println(String.format("Your BMI is %.1f.\nYou are overweight. You should see your doctor.", bmi));
         } catch (NumberFormatException ex) {
             System.out.println("Enter numbers only.");
         };
